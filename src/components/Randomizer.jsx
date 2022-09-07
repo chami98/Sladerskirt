@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import ImageContainer from "./ImageContainer";
 import DescriptionContainer from "./DescriptionContainer";
+import Spinner from "./utility/Spinner";
 
 const Randomizer = ({
   content,
@@ -22,11 +23,7 @@ const Randomizer = ({
       <Header />
 
       {isLoading ? (
-        <div class="d-flex justify-content-center" style={{marginTop:"25vh", }}>
-        <div class="spinner-border" role="status" style={{width: "4rem", height: "4rem"}}>
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
+        <Spinner />
       ) : (
         <div className="row mt-4">
           <div className="col-xs-12 col-md-6">
