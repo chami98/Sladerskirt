@@ -1,0 +1,88 @@
+.btn-primary {
+  color: #212529;
+  background-color: #7cc;
+  border-color: #5bc2c2;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #52bebe;
+  border-color: #8ad3d3;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(91, 194, 194, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #212529;
+  background-color: #7cc;
+  border-color: #5bc2c2;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #9cdada;
+  border-color: #2e7c7c;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(91, 194, 194, 0.5);
+}
+
+.btn-outline-primary {
+  color: white;
+  background-color: transparent;
+  background-image: none;
+  border-color: white;
+}
+
+.random-btn {
+  font-size: 36px;
+  font-weight: 200;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .random-btn {
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 22, 22, 0.5);
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #7cc;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(119, 204, 204, 0.5);
+}

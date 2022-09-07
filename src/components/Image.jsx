@@ -28,7 +28,9 @@ const Image = ({ content }) => {
             >
               {c.title}
             </h4>
-            <p >{c.text}</p>
+            {c.text.map((txt) => (
+              <p key={txt}>{txt}</p>
+            ))}
           </div>
         ))}
       </div>
