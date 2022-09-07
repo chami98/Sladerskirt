@@ -23,9 +23,8 @@ const DescriptionContainer = ({
 
       <div className="d-flex justify-content-center">
         <button
-          onClick={() => setrandomImageNumberHandler()}
+          onClick={setrandomImageNumberHandler}
           className="btn btn-outline-primary btn-lg random-btn"
-          style={{}}
         >
           Randomize!
         </button>

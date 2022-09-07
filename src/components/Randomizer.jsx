@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
 import ImageContainer from "./ImageContainer";
 import DescriptionContainer from "./DescriptionContainer";
 import Spinner from "./utility/Spinner";
+import Layout from "./utility/Layout";
 
 const Randomizer = ({
   content,
@@ -11,17 +11,7 @@ const Randomizer = ({
   isLoading,
 }) => {
   return (
-    <div
-      style={{
-        backgroundImage: "linear-gradient(270deg, #8f28e8 0%, #ad43f8 100%)",
-        minHeight: "100vh",
-        color: "white",
-        overflow: "hidden",
-        paddingTop: "20px",
-      }}
-    >
-      <Header />
-
+    <Layout>
       {isLoading ? (
         <Spinner />
       ) : (
@@ -41,7 +31,7 @@ const Randomizer = ({
           </div>
         </div>
       )}
-    </div>
+    </Layout>
   );
 };
 
