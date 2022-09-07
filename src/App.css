@@ -1,6 +1,6 @@
 .btn-primary {
   color: #212529;
-  background-color: #7cc;
+  background-color: white;
   border-color: #5bc2c2;
 }
 
@@ -18,7 +18,7 @@
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #212529;
-  background-color: #7cc;
+  background-color: white;
   border-color: #5bc2c2;
 }
 
@@ -49,10 +49,42 @@
   border-radius: 30px;
 }
 
+.header-btn {
+  font-size: 20px;
+}
+
+.title {
+  font-family: "Roboto Mono";
+  font-size: 55px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.randomizer{
+  margin-top:45px
+}
+
 @media only screen and (max-width: 600px) {
   .random-btn {
     border-radius: 10px;
     margin-top: 20px;
+  }
+
+  .header-btn {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+  .btn-container{
+    margin-top: 0px;
+  }
+  .randomizer{
+    margin-top: 30px;
   }
 }
 
@@ -69,7 +101,7 @@
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #7cc;
+  color: white;
   background-color: transparent;
 }
 

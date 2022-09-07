@@ -15,7 +15,7 @@ const Randomizer = ({
       {isLoading ? (
         <Spinner />
       ) : (
-        <div className="row mt-4">
+        <div className="row randomizer">
           <div className="col-xs-12 col-md-6">
             <ImageContainer
               content={content}
